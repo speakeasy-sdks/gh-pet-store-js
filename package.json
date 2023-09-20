@@ -1,6 +1,6 @@
 {
   "name": "pet-store",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "author": "Georges Haidar",
   "scripts": {
     "prepare": "tsc --build"
