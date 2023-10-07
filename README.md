@@ -20,15 +20,16 @@ yarn add https://github.com/speakeasy-sdks/gh-pet-store-js
 <!-- Start SDK Example Usage -->
 ```typescript
 import { PetStore } from "pet-store";
-import { CreatePetsResponse } from "pet-store/dist/sdk/models/operations";
 
-const sdk = new PetStore();
+(async() => {
+  const sdk = new PetStore();
 
-sdk.pets.createPets().then((res: CreatePetsResponse) => {
+  const res = await sdk.pets.createPets();
+
   if (res.statusCode == 200) {
     // handle response
   }
-});
+})();
 ```
 <!-- End SDK Example Usage -->
 
