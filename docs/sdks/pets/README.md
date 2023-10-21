@@ -85,7 +85,7 @@ import { PetStore } from "pet-store";
   const sdk = new PetStore();
 
   const res = await sdk.pets.showPetById({
-    petId: "South bandwidth male",
+    petId: "string",
   });
 
   if (res.statusCode == 200) {
