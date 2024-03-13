@@ -3,17 +3,17 @@ id: a3e91403-56f2-4693-9894-ee082a25db31
 management:
   docChecksum: 2516596125ef223fbbef6c434d22eaac
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.258.2
-  releaseVersion: 2.1.2
-  configChecksum: 18ce5dbdb850519d383ad3fa56aea9f4
+  speakeasyVersion: 1.207.1
+  generationVersion: 2.280.6
+  releaseVersion: 2.1.3
+  configChecksum: 62b430e4440d9fb5b575ff552c10abbc
   repoURL: https://github.com/speakeasy-sdks/gh-pet-store-js.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/gh-pet-store-js
 features:
   typescript:
-    core: 3.4.7
-    globalServerURLs: 2.82.1
+    core: 3.4.8
+    globalServerURLs: 2.82.2
 generatedFiles:
   - src/sdk/pets.ts
   - src/sdk/sdk.ts
